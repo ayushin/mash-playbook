@@ -995,6 +995,14 @@
     - role: galaxy/auxiliary
     # /role-specific:auxiliary
 
+    # role-specific:matterbridge
+    - role: galaxy/matterbridge
+    # /role-specific:matterbridge
+
+    # role-specific:odoo
+    - role: galaxy/odoo
+    # /role-specific:odoo
+
     # role-specific:systemd_service_manager
     # This role needs to run after setting up roles for individual services as it restarts them.
     - when: devture_systemd_service_manager_enabled | bool
