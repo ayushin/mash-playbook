@@ -641,7 +641,7 @@
   name: yacy
   activation_prefix: yacy_
 - src: git+https://github.com/mother-of-all-self-hosting/ansible-role-yourls.git
-  version: v1.10.2-4
+  version: v1.10.2-5
   name: yourls
   activation_prefix: yourls_
 - src: git+https://github.com/apexive/ansible-role-odoo.git
